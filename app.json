@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Arabic Quiz",
+    "slug": "arabic-quiz-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1F4788"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.arabicquiz"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1F4788"
+      },
+      "package": "com.yourname.arabicquiz"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
